@@ -1,0 +1,86 @@
+/* ==========================
+   Custom Styles for Event App
+   ========================== */
+
+/* General Page Layout */
+body {
+  background-color: #f9fafb;
+  color: #111827;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Section */
+header {
+  background: linear-gradient(90deg, #1e3a8a, #3b82f6);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Buttons */
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #1e40af;
+}
+
+/* Input Fields */
+input,
+select,
+textarea {
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  padding: 0.5rem;
+  width: 100%;
+  margin-top: 0.3rem;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+}
+
+/* Cards and Containers */
+.card {
+  background: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  color: #6b7280;
+  font-size: 0.85rem;
+  margin-top: 2rem;
+}
+
+/* Page Background */
+body {
+  background-image: url("images/background.jpg");
+  background-size: cover;        /* Scale to fill */
+  background-position: center;   /* Center it nicely */
+  background-attachment: fixed;  /* Optional: makes it static when scrolling */
+  background-repeat: no-repeat;
+  color: #111827;
+  font-family: "Inter", sans-serif;
+}
+
